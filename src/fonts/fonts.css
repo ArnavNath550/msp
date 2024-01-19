@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Lazy Dog";
+    src: local('lazy_dog.ttf'), url(./lazy_dog.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Lazy Dog";
+    font-weight: 500;
+    src: local('lazy_dog.ttf'), url(./lazy_dog.ttf) format('truetype');
+}
