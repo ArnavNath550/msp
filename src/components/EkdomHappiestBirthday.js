@@ -94,7 +94,7 @@ function EkdomHappiestBirthday() {
           <div>
           Ekdomm happiest <span style={{color: "navy"}}>2nd</span> birthday
           <motion.div>
-            mera big beautiful... ekdom warmest home, mera best friend, the love of navi ka life, the ekdom most beautiful girl in this whole wide world, mera everything.. mera puchi
+            mera big beautiful... ekdom warmest home, mera best friend, the love of navi ka life, the ekdom most beautiful girl in this whole wide world, mera sukoon, mera safest place, mera smartest cookie, mera brightest girl, mera motivation, mera future.. mera everything.. mera puchi
           </motion.div>
           </div>
           <motion.div style={{fontSize: "3rem"}}>

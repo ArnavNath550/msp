@@ -19,7 +19,7 @@ function GrowingOldWithMySundori() {
         ))}
       </div>
       <div className="hero-heading">
-        i really love growing old with <br /> my sundori princess
+        navi loves growing old with his <br /> sundori princess so much
       </div>
     </div>
   );
