@@ -102,7 +102,7 @@ function EkdomHappiestBirthday() {
           </motion.div>
         </motion.div>
         <div style={{paddingTop: '8rem', paddingBottom: '8rem', textAlign: "center"}}>
-            <span style={{fontSize: "8rem", textAlign: "center"}}>I love you so much puchi ❤️</span>
+            <span style={{fontSize: "8rem", textAlign: "center"}}>I love you so much my puchi ❤️</span>
           </div>
       </div>
     )
