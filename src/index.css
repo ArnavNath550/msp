@@ -85,6 +85,8 @@ code {
   align-items: center;
   justify-content: center;
   background-color: #ed637c;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .night-bg {
@@ -114,6 +116,8 @@ code {
   gap: 50px;
   align-items: center;
   justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .my-sundori-gallery {
@@ -172,4 +176,47 @@ code {
   font-size: 5rem;
   color: #FF7B94;
   transform: translate(-50%, -50%);
+}
+
+
+.toMyBigGirl-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #ed637c;
+}
+
+.toMyBigGirl-container .hero-heading {
+  padding: 10rem;
+}
+
+.toMyBigGirl-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Ensure overlay is behind text */
+}
+
+.image-slide {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.image-slide img {
+
+}
+
+.image-slide.active {
+  opacity: 1;
 }
