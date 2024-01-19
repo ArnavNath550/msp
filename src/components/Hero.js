@@ -37,13 +37,13 @@ function Hero() {
 
       controls.start({ top: newTop });
     } else {
-      controls.start({position: "absolute"})
+      controls.start({ position: "absolute" })
     }
   }, [scrollPosition, controls]);
 
   return (
     <div className="hero">
-       <motion.div
+      <motion.div
         className="hero-heart heart-left"
         style={{
           position: 'absolute',
@@ -57,7 +57,7 @@ function Hero() {
         animate={controls}
       >
         <svg width="278" height="246" viewBox="0 0 278 246" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M75 75L139 139L203 75" stroke-width="150" stroke-linecap="round"/>
+          <path d="M75 75L139 139L203 75" stroke-width="150" stroke-linecap="round" />
         </svg>
       </motion.div>
       <motion.div
@@ -73,13 +73,13 @@ function Hero() {
         animate={controls}
       >
         <svg width="278" height="246" viewBox="0 0 278 246" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M75 75L139 139L203 75" stroke-width="150" stroke-linecap="round"/>
+          <path d="M75 75L139 139L203 75" stroke-width="150" stroke-linecap="round" />
         </svg>
       </motion.div>
       <div className="hero-confetti">
-        {isExploding && <ConfettiExplosion force={2} particleCount="300" duration={5000}/>}
+        {isExploding && <ConfettiExplosion force={2} particleCount="300" duration={5000} />}
       </div>
-      <motion.div 
+      <motion.div
         initial={{ scale: 5, rotate: 180 }}
         animate={{ rotate: 0, scale: 1 }}
         duration={8000}
@@ -93,13 +93,13 @@ function Hero() {
         <div>
           <img src="./images/kissingmyprincesspuchi.gif" />
         </div>
-        Ekdomm happiest <span style={{color: "navy"}}>2nd</span> birthday
+        Ekdomm happiest <span style={{ color: "navy" }}>2nd</span> birthday
         <motion.div>
           mera puchuuu piee !!
         </motion.div>
       </motion.div>
-      <div className="hero-scroll">
-        <span>Ekdomm scroll down mera puchiii</span>
+      <div className="hero-scroll" style={{ textAlign: "center" }}>
+        <span style={{ textAlign: "center" }}>Our Ekdom Most Special Dayy!! Ekdomm scroll down mera puchiii</span>
       </div>
     </div>
   )
