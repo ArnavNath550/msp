@@ -28,8 +28,7 @@ code {
 }
 
 .hero-scroll {
-  position: absolute;
-  bottom: 50px;
+  margin-top: 50px;
   font-size: 2rem;
   color: #222;
 }
@@ -50,4 +49,29 @@ code {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.hero-heart {
+  transition: all ease 0.2s;
+}
+
+.heart-left {
+  position: absolute;
+  left: 100px;
+  transform: rotate(-30deg);
+}
+
+.heart-right {
+  position: absolute;
+  right: 100px;
+  transform: rotate(30deg);
+}
+
+.hero-heart svg {
+  width: 200px;
+  height: 200px;
+}
+
+.hero-heart svg path {
+  stroke: #ed637c;
 }
